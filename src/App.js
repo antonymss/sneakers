@@ -13,7 +13,7 @@ function App() {
           />
           <div className="headerInfo">
             <h3>Sneakers</h3>
-            <p>Магазин кроссовок</p>
+            <p style={{opacity:"0.5"}}>Магазин кроссовок</p>
           </div>
         </div>
 
@@ -34,6 +34,7 @@ function App() {
       </header>
       <div className="content">
         <h1 style={{marginBottom:"40px"}}>Все кроссовки</h1>
+        <div className="sneakers">
         <div className="card">
           <img width={133} height={112} src="/img/sneakers/1.jpeg" alt="sneakers" />
           <h5> Мужские кроссовки nike</h5>
@@ -85,6 +86,7 @@ function App() {
                 <img width={11} height={11} src="/img/plus.svg" alt="plus" />
               </button>
           </div>
+        </div>
         </div>
       </div>
     </div>
