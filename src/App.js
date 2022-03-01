@@ -35,14 +35,14 @@ function App() {
       <div className="content">
         <h1>Все кроссовки</h1>
         <div className="card">
-          <img src="" alt="" />
+          <img src="/img/sneakers/1.jpeg" alt="sneakers" />
           <p></p>
           <div>
             <div>
               <span>Цена:</span>
               <b>12999p</b>
               <button>
-                <img src="/img/plus.svg" alt="" />
+                <img width={11} height={11} src="/img/plus.svg" alt="plus" />
               </button>
             </div>
           </div>
