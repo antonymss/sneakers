@@ -33,18 +33,57 @@ function App() {
         </ul>
       </header>
       <div className="content">
-        <h1>Все кроссовки</h1>
+        <h1 style={{marginBottom:"40px"}}>Все кроссовки</h1>
         <div className="card">
-          <img src="/img/sneakers/1.jpeg" alt="sneakers" />
-          <p></p>
-          <div>
-            <div>
+          <img width={133} height={112} src="/img/sneakers/1.jpeg" alt="sneakers" />
+          <h5> Мужские кроссовки nike</h5>
+          <div className="cardBottom">
+            <div className="cardPrice">
               <span>Цена:</span>
               <b>12999p</b>
-              <button>
+              </div>
+              <button className="button">
                 <img width={11} height={11} src="/img/plus.svg" alt="plus" />
               </button>
-            </div>
+          </div>
+        </div>
+        <div className="card">
+          <img width={133} height={112} src="/img/sneakers/2.jpeg" alt="sneakers" />
+          <h5> Мужские кроссовки nike</h5>
+          <div className="cardBottom">
+            <div className="cardPrice">
+              <span>Цена:</span>
+              <b>12999p</b>
+              </div>
+              <button className="button">
+                <img width={11} height={11} src="/img/plus.svg" alt="plus" />
+              </button>
+          </div>
+        </div>
+        <div className="card">
+          <img width={133} height={112} src="/img/sneakers/3.jpeg" alt="sneakers" />
+          <h5> Мужские кроссовки nike</h5>
+          <div className="cardBottom">
+            <div className="cardPrice">
+              <span>Цена:</span>
+              <b>12999p</b>
+              </div>
+              <button className="button">
+                <img width={11} height={11} src="/img/plus.svg" alt="plus" />
+              </button>
+          </div>
+        </div>
+        <div className="card">
+          <img width={133} height={112} src="/img/sneakers/4.jpeg" alt="sneakers" />
+          <h5> Мужские кроссовки nike</h5>
+          <div className="cardBottom">
+            <div className="cardPrice">
+              <span>Цена:</span>
+              <b>12999p</b>
+              </div>
+              <button className="button">
+                <img width={11} height={11} src="/img/plus.svg" alt="plus" />
+              </button>
           </div>
         </div>
       </div>
