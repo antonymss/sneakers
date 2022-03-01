@@ -35,7 +35,17 @@ function App() {
       <div className="content">
         <h1>Все кроссовки</h1>
         <div className="card">
-          
+          <img src="" alt="" />
+          <p></p>
+          <div>
+            <div>
+              <span>Цена:</span>
+              <b>12999p</b>
+              <button>
+                <img src="/img/plus.svg" alt="" />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
