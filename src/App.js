@@ -34,6 +34,9 @@ function App() {
       </header>
       <div className="content">
         <h1>Все кроссовки</h1>
+        <div className="card">
+          
+        </div>
       </div>
     </div>
   );
