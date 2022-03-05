@@ -37,7 +37,7 @@ function App() {
         <div className="sneakers">
         <div className="card">
           <img width={133} height={112} src="/img/sneakers/1.jpeg" alt="sneakers" />
-          <h5> Мужские кроссовки nike</h5>
+          <h5> Мужские кроссовки Nike</h5>
           <div className="cardBottom">
             <div className="cardPrice">
               <span>Цена:</span>
