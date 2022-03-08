@@ -40,7 +40,7 @@ function App() {
           <h5> Мужские кроссовки Nike</h5>
           <div className="cardBottom">
             <div className="cardPrice">
-              <span>Цена:</span>
+              <span>Цена :</span>
               <b>12999p</b>
               </div>
               <button className="button">
